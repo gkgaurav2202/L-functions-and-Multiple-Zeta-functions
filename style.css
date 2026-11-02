@@ -326,3 +326,11 @@ footer .footer-id { gap: .8rem 1.3rem; }
 footer .footer-id img { height: 64px; padding: 5px 12px; }
 footer .footer-note { flex: 1 1 100%; margin: 1.1rem 0 0; padding-top: .9rem; border-top: 1px solid rgba(255,255,255,.18); font-size: .7em; font-style: italic; color: #8F9BC4; }
 @media (max-width: 680px) { .brand { display: none; } }
+
+/* Participants page: a numbered list in columns */
+.people { list-style: decimal; margin: 0; padding: 0 0 0 2.4rem; columns: 2; column-gap: 3rem; }
+.people li { break-inside: avoid; margin: 0 0 1rem; padding-left: .3rem; }
+.people li b { display: block; font-weight: 600; color: var(--indigo); font-size: 1.1rem; line-height: 1.25; overflow-wrap: break-word; }
+.people li span { display: block; margin-top: .15rem; font-size: .98rem; font-style: italic; color: var(--muted); line-height: 1.3; overflow-wrap: break-word; }
+.people li::marker { color: var(--muted); font-size: .9rem; }
+@media (max-width: 700px) { .people { columns: 1; padding-left: 1.6rem; } }
