@@ -24,12 +24,10 @@
   var days = [
     {
       title: 'Day 1, 15 December',
-      start: '09:45',
+      start: '11:30',
       items: [
-        event('Inauguration and welcome', 15, 'main'),
-        talk('Speaker name', 'Title to be announced'),
-        talk('Speaker name', 'Title to be announced'),
-        tea(),
+       event('Tea', 30, 'main'),
+       event('Inauguration and welcome', 5, 'main'),
         talk('Speaker name', 'Title to be announced'),
         lunch(),
         talk('Speaker name', 'Title to be announced'),
@@ -48,6 +46,8 @@
         talk('Speaker name', 'Title to be announced'),
         lunch(),
         talk('Speaker name', 'Title to be announced')
+         talk('Speaker name', 'Title to be announced'),
+        talk('Speaker name', 'Title to be announced'),
       ]
     },
     {
