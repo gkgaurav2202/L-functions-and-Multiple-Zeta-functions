@@ -11,6 +11,7 @@
     ['Talks',      'talks.html'],
  //   ['Photos',     'photos.html'],
     ['Register',   'index.html#register']
+   ['Participants', 'participants.html'],
   ];
 
   var header = document.getElementById('site-header');
@@ -27,7 +28,8 @@
     'speakers': ['Speakers | L-functions and Multiple Zeta functions', 'Invited speakers of the conference on L-functions and Multiple Zeta functions, 15-17 December 2026, The Institute of Mathematical Sciences, Chennai.'],
     'schedule': ['Schedule | L-functions and Multiple Zeta functions', 'Schedule of the conference on L-functions and Multiple Zeta functions: talks, breaks and the poster session, 15-17 December 2026, Chennai.'],
     'talks':    ['Talks and Abstracts | L-functions and Multiple Zeta functions', 'Talk titles and abstracts of the conference on L-functions and Multiple Zeta functions, 15-17 December 2026, Chennai.'],
-//    'photos':   ['Photos | L-functions and Multiple Zeta functions', 'Photos of the conference on L-functions and Multiple Zeta functions, Chennai, December 2026.']
+//  'photos':   ['Photos | L-functions and Multiple Zeta functions', 'Photos of the conference on L-functions and Multiple Zeta functions, Chennai, December 2026.']
+    'participants': ['Participants | L-functions and Multiple Zeta functions', 'Registered participants of the conference on L-functions and Multiple Zeta functions, 15-17 December 2026, The Institute of Mathematical Sciences, Chennai.'],
   };
   if (SEO[file]) {
     document.title = SEO[file][0];
