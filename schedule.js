@@ -26,7 +26,7 @@
       title: 'Day 1, 15 December',
       start: '11:30',
       items: [
-       event('Tea', 30, 'main'),
+       event('Tea and Registration', 30, 'main'),
        event('Inauguration and welcome', 15, 'main'),
         talk('Speaker name', 'Title to be announced'),
         lunch(),
