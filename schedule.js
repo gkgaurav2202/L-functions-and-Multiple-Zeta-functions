@@ -28,42 +28,42 @@
       items: [
        event('Registration and tea', 30, 'main'),
        event('Inauguration and welcome', 15, 'main'),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Ramachandran Balasubramanian', 'Title to be announced'),
         lunch(),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Maki Nakasuji', 'Title to be announced'),
         tea(),
-        talk('Speaker name', 'Title to be announced'),
-      talk('Speaker name', 'Title to be announced'),
+        talk('Gaurav Kumar', 'Title to be announced'),
+      talk('Yuichiro Toma', 'Title to be announced'),
       ]
     },
     {
       title: 'Day 2, 16 December',
       start: '10:00',
       items: [
-        talk('Speaker name', 'Title to be announced'),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Masanobu Kaneko', 'Title to be announced'),
+        talk('Masatoshi Suzuki', 'Title to be announced'),
         tea(),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Deep Thakur', 'Title to be announced'),
         lunch(),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Biplab Paul', 'Title to be announced'),
         tea(),
         talk('Speaker name', 'Title to be announced'),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Simon Rutard', 'Title to be announced'),
       ]
     },
     {
       title: 'Day 3, 17 December',
       start: '10:00',
       items: [
-        talk('Speaker name', 'Title to be announced'),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Masatoshi Suzuki', 'Title to be announced'),
+        talk('Koji Tasaka', 'Title to be announced'),
         tea(),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Suhita Hazra', 'Title to be announced'),
         lunch(),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Sunil Naik', 'Title to be announced'),
         tea(),
-        talk('Speaker name', 'Title to be announced'),
-        event('Closing remarks', '17:00', 'main')
+        talk('Yuta Suzuki', 'Title to be announced'),
+        event('Closing remarks', '16:40', 'main')
       ]
     }
   ];
