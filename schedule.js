@@ -33,7 +33,7 @@
         talk('Speaker name', 'Title to be announced'),
         tea(),
         talk('Speaker name', 'Title to be announced'),
-        event('Poster Session', 60)
+      talk('Speaker name', 'Title to be announced'),
       ]
     },
     {
