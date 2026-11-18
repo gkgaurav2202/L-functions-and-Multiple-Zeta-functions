@@ -35,7 +35,7 @@
         tea(),
         talk('Gaurav Kumar', 'Title to be announced'),
         talk('Yuichiro Toma', 'Title to be announced'),
-        eveningtea(),
+        eveningtea()
       ]
     },
     {
@@ -51,6 +51,7 @@
         tea(),
         talk('Preeti Goyat', 'Title to be announced'),
         talk('Simon Rutard', 'Title to be announced'),
+        eveningtea()
       ]
     },
     {
@@ -65,7 +66,8 @@
         talk('Sunil Naik', 'Title to be announced'),
         tea(),
         talk('Yuta Suzuki', 'Title to be announced'),
-        event('Closing remarks', '16:40', 'main')
+        event('Closing remarks', '16:40', 'main'),
+        eveningtea()
       ]
     }
   ];
