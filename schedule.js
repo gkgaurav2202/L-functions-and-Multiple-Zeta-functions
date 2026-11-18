@@ -47,7 +47,7 @@
         lunch(),
         talk('Biplab Paul', 'Title to be announced'),
         tea(),
-        talk('Speaker name', 'Title to be announced'),
+        talk('Preeti Goyat', 'Title to be announced'),
         talk('Simon Rutard', 'Title to be announced'),
       ]
     },
@@ -55,7 +55,7 @@
       title: 'Day 3, 17 December',
       start: '10:00',
       items: [
-        talk('Masatoshi Suzuki', 'Title to be announced'),
+        talk('Kohji Matsumoto', 'Title to be announced'),
         talk('Koji Tasaka', 'Title to be announced'),
         tea(),
         talk('Suhita Hazra', 'Title to be announced'),
