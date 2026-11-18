@@ -16,6 +16,7 @@
   function event(title, mins, cls) { return { type: 'event', title: title, mins: mins, cls: cls || '' }; }
   // tea and lunch follow a talk directly (no 5 minute break before them); lunch starts at LUNCH_START
   function tea()   { var e = event('Tea break', TEA, 'break'); e.noBreakBefore = true; return e; }
+  function eveningtea()   { var e = event('Evening Tea', TEA, 'break'); e.noBreakBefore = true; return e; }
   function lunch() { var e = event('Lunch break', LUNCH, 'lunch'); e.noBreakBefore = true; e.start = LUNCH_START; return e; }
   // talk('Speaker name', 'Title of the talk', 'page-id')  - the third part is optional: it links the name to talks.html#page-id
   function talk(speaker, title, link) { return { type: 'talk', speaker: speaker, title: title, link: link || '' }; }
@@ -33,7 +34,8 @@
         talk('Maki Nakasuji', 'Title to be announced'),
         tea(),
         talk('Gaurav Kumar', 'Title to be announced'),
-      talk('Yuichiro Toma', 'Title to be announced'),
+        talk('Yuichiro Toma', 'Title to be announced'),
+        eveningtea(),
       ]
     },
     {
