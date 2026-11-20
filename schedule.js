@@ -29,7 +29,7 @@
       start: '11:30',
       items: [
        event('Registration and tea', 30, 'main'),
-       event('Inauguration and welcome', 15, 'main'),
+       event('Inauguration and welcome', 10, 'main'),
         talk('Ramachandran Balasubramanian', 'Title to be announced'),
         lunch(),
         talk('Maki Nakasuji', 'Duality for Shifted Multi-Indexed Poly-Bernoulli Numbers'),
