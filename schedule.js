@@ -1,4 +1,4 @@
-/* Schedule for all pages that have <div id="schedule"></div>.
+ /* Schedule for all pages that have <div id="schedule"></div>.
    Edit the lists in the "SCHEDULE" part below. Times, talk numbers and the 5 minute breaks are worked out automatically. */
 (function () {
 
@@ -18,6 +18,7 @@
   function tea()   { var e = event('Tea break', TEA, 'break'); e.noBreakBefore = true; return e; }
   function eveningtea()   { var e = event('Evening Tea', TEA, 'break'); e.noBreakBefore = true; return e; }
   function lunch() { var e = event('Lunch break', LUNCH, 'lunch'); e.noBreakBefore = true; e.start = LUNCH_START; return e; }
+  function closing() {var e = event('Closing Remarks', BREAK, 'break'); e.noBreakBefore=true; return e; }
   // talk('Speaker name', 'Title of the talk', 'page-id')  - the third part is optional: it links the name to talks.html#page-id
   function talk(speaker, title, link) { return { type: 'talk', speaker: speaker, title: title, link: link || '' }; }
 
@@ -67,7 +68,7 @@
         tea(),
         talk('Yuta Suzuki', 'Title to be announced'),
         talk('Herbert Gangl', 'Title to be announced'),
-        event('Closing remarks', '17:25', 'main'),
+        closing(),
         eveningtea()
       ]
     }
