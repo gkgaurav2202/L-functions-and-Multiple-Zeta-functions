@@ -32,10 +32,10 @@
        event('Inauguration and welcome', 15, 'main'),
         talk('Ramachandran Balasubramanian', 'Title to be announced'),
         lunch(),
-        talk('Maki Nakasuji', 'Title to be announced'),
+        talk('Maki Nakasuji', 'Duality for Shifted Multi-Indexed Poly-Bernoulli Numbers'),
         tea(),
         talk('Gaurav Kumar', 'Title to be announced'),
-        talk('Koji Tasaka', 'Title to be announced'),
+        talk('Koji Tasaka', 'Unified multiple L-functions and their values at integer points'),
         eveningtea()
       ]
     },
@@ -44,7 +44,7 @@
       start: '10:00',
       items: [
         talk('Masanobu Kaneko', 'Title to be announced'),
-        talk('Masatoshi Suzuki', 'Title to be announced'),
+        talk('Masatoshi Suzuki', 'On detecting zeros of Dirichlet L-functions from the Riemann zeta-function'),
         tea(),
         talk('Deep Thakur', 'Title to be announced'),
         lunch(),
