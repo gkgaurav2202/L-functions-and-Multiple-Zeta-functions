@@ -334,3 +334,8 @@ footer .footer-note { flex: 1 1 100%; margin: 1.1rem 0 0; padding-top: .9rem; bo
 .people li span { display: block; margin-top: .15rem; font-size: .98rem; font-style: italic; color: var(--muted); line-height: 1.3; overflow-wrap: break-word; }
 .people li::marker { color: var(--muted); font-size: .9rem; }
 @media (max-width: 700px) { .people { columns: 1; padding-left: 1.6rem; } }
+
+/* keep the footer at the bottom of the window on short pages */
+body { min-height: 100vh; display: flex; flex-direction: column; }
+body > main { flex: 1 0 auto; }
+body > footer { flex: none; }
