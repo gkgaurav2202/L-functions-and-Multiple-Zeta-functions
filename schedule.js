@@ -62,7 +62,7 @@
         talk('Kohji Matsumoto', 'Title to be announced'),
         talk('Yuichiro Toma', 'Title to be announced'),
         tea(),
-        talk('Suhita Hazra', 'Non-vanishing and Holomorphy of a family of L-functions.'),
+        talk('Suhita Hazra', 'Non-vanishing and Holomorphy of a family of L-functions'),
         lunch(),
         talk('Sunil Naik', 'Title to be announced'),
         tea(),
