@@ -34,7 +34,7 @@
         talk('Maki Nakasuji', 'Title to be announced'),
         tea(),
         talk('Gaurav Kumar', 'Title to be announced'),
-        talk('Yuichiro Toma', 'Title to be announced'),
+        talk('Koji Tasaka', 'Title to be announced'),
         eveningtea()
       ]
     },
@@ -59,14 +59,15 @@
       start: '10:00',
       items: [
         talk('Kohji Matsumoto', 'Title to be announced'),
-        talk('Koji Tasaka', 'Title to be announced'),
+        talk('Yuichiro Toma', 'Title to be announced'),
         tea(),
         talk('Suhita Hazra', 'Title to be announced'),
         lunch(),
         talk('Sunil Naik', 'Title to be announced'),
         tea(),
         talk('Yuta Suzuki', 'Title to be announced'),
-        event('Closing remarks', '16:40', 'main'),
+        talk('Herbert Gangl', 'Title to be announced'),
+        event('Closing remarks', '17:25', 'main'),
         eveningtea()
       ]
     }
