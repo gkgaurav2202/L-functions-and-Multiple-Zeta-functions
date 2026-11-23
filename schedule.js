@@ -80,7 +80,7 @@
 
   function toMin(t) { var p = t.split(':'); return parseInt(p[0], 10) * 60 + parseInt(p[1], 10); }
   function two(n) { return (n < 10 ? '0' : '') + n; }
-  function toTime(m) { return two(Math.floor(m / 60)) + ':' + two(m % 60); }
+    function toTime(m) { var h = Math.floor(m / 60), mi = m % 60, ap = h < 12 ? 'am' : 'pm', h12 = h % 12; if (h12 === 0) h12 = 12; return h12 + ':' + two(mi) + ' ' + ap; }
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 
   var talkNumber = 0;
