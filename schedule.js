@@ -51,7 +51,7 @@
         talk('Biplab Paul', 'Title to be announced'),
         tea(),
         talk('Preeti Goyat', 'Title to be announced'),
-        talk('Simon Rutard', 'Title to be announced'),
+        talk('Yuichiro Toma', 'Title to be announced'),
         eveningtea()
       ]
     },
@@ -60,7 +60,7 @@
       start: '10:00',
       items: [
         talk('Kohji Matsumoto', 'Title to be announced'),
-        talk('Yuichiro Toma', 'Title to be announced'),
+        talk('Simon Rutard', 'Title to be announced'),
         tea(),
         talk('Suhita Hazra', 'Non-vanishing and Holomorphy of a family of L-functions'),
         lunch(),
