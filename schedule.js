@@ -133,3 +133,8 @@
     if (target) target.scrollIntoView();
   }
 })();
+
+/* wider time column so am/pm times stay on one line */
+.timeline li { grid-template-columns: 11.5rem 1fr; }
+.timeline time { white-space: nowrap; }
+@media (max-width: 600px) { .timeline li { grid-template-columns: 1fr; } }
