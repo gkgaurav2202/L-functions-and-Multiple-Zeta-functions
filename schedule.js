@@ -133,6 +133,3 @@
     if (target) target.scrollIntoView();
   }
 })();
-
-/* wider time column so am/pm times stay on one line */
-
