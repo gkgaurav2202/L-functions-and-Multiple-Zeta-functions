@@ -339,7 +339,7 @@ footer .footer-note { flex: 1 1 100%; margin: 1.1rem 0 0; padding-top: .9rem; bo
 body { min-height: 100vh; display: flex; flex-direction: column; }
 body > main { flex: 1 0 auto; }
 body > footer { flex: none; }
-
+/* wider time column so am/pm times stay on one line */
 
 .timeline li { grid-template-columns: 11.5rem 1fr; }
 .timeline time { white-space: nowrap; }
