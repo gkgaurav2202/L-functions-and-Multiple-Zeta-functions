@@ -46,7 +46,7 @@
         talk('Masanobu Kaneko', 'Title to be announced'),
         talk('Masatoshi Suzuki', 'On detecting zeros of Dirichlet L-functions from the Riemann zeta-function'),
         tea(),
-        talk('Deep Thakur', 'Title to be announced'),
+        talk('Deep Thakur', 'On a series related to the M\"obius function'),
         lunch(),
         talk('Biplab Paul', 'Title to be announced'),
         tea(),
