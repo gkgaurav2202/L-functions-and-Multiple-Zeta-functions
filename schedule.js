@@ -43,15 +43,15 @@
       title: 'Day 2, 16 December',
       start: '10:00',
       items: [
-        talk('Masanobu Kaneko', 'Title to be announced'),
+        talk('Masanobu Kaneko', 'From Poly-Bernoulli Numbers to Zeta Functions'),
         talk('Masatoshi Suzuki', 'On detecting zeros of Dirichlet L-functions from the Riemann zeta-function'),
         tea(),
         talk('Deep Thakur', 'On a series related to the M\"obius function'),
         lunch(),
-        talk('Biplab Paul', 'Title to be announced'),
+        talk('Biplab Paul', 'Sum of Hecke eigenvalues of Siegel modular forms over integer values of quadratic forms'),
         tea(),
         talk('Preeti Goyat', 'Title to be announced'),
-        talk('Yuichiro Toma', 'Title to be announced'),
+        talk('Yuichiro Toma', 'On the logarithmic derivatives of Dirichlet $L$-functions in special families'),
         eveningtea()
       ]
     },
@@ -59,14 +59,14 @@
       title: 'Day 3, 17 December',
       start: '10:00',
       items: [
-        talk('Kohji Matsumoto', 'Title to be announced'),
+        talk('Kohji Matsumoto', 'On the distribution of the zeros of the Euler double zeta-function $\zeta_2(s,s)$'),
         talk('Simon Rutard', 'Title to be announced'),
         tea(),
         talk('Suhita Hazra', 'Non-vanishing and Holomorphy of a family of L-functions'),
         lunch(),
         talk('Sunil Naik', 'Title to be announced'),
         tea(),
-        talk('Yuta Suzuki', 'Title to be announced'),
+        talk('Yuta Suzuki', 'Almost primes with square digital reverses'),
         talk('Herbert Gangl', 'Title to be announced'),
         closing(),
         eveningtea()
